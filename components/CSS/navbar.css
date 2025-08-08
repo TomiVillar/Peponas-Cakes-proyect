@@ -1,0 +1,124 @@
+/* Light Mode Styles */
+.navbar-custom {
+  background-color: #8B3FC2 !important; /* Main Violet in light mode */
+  background: #8B3FC2 !important;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: #8B3FC2 !important;
+}
+
+.navbar-custom .dropdown-item {
+  color: #F5C518 !important; /* Yellow for text */
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand,
+.navbar-custom .dropdown-item,
+.navbar-custom .btn {
+  color: #F5C518 !important;
+}
+
+.btn {
+  border: 1px solid #F5C518 !important;
+  background-color: #8B3FC2 !important;
+  color: #F5C518 !important;
+}
+
+.btn:hover {
+  background-color: #F5C518 !important;
+  color: #8B3FC2 !important;
+}
+
+.navbar-custom .form-control {
+  background-color: #C8A2C8 !important; /* Lilac for input in light mode */
+  color: #F5C518 !important;
+  border: 1px solid #F5C518 !important;
+}
+
+.navbar-custom .dropdown-item:hover {
+  background-color: #F5C518 !important;
+  color: #8B3FC2 !important;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #FFFFFF !important;
+}
+
+.navbar-custom .navbar-toggler:focus,
+.navbar-custom .navbar-toggler:active {
+  background-color: #F5C518 !important;
+  border-color: #8B3FC2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(75, 0, 130, 0.5) !important;
+  outline: none !important;
+}
+
+/* --- */
+
+/* Dark Mode Styles - Adjusted for page color compatibility */
+.dark-mode {
+  background-color: #4A4063 !important; /* Soft dark violet, keeping the essence */
+  color: #c58cfa !important; /* Light violet for contrast */
+}
+
+.dark-mode .navbar-custom {
+  background-color: #71009e !important; /* Deep but less saturated violet */
+}
+
+.dark-mode .navbar-custom .form-control {
+  background-color: #6B4E9A !important; /* Dark lilac, consistent with the palette */
+  color: #c58cfa !important;
+  border-color: #c58cfa !important;
+}
+
+.dark-mode .navbar-custom .dropdown-menu {
+  background-color: #4A4063 !important;
+}
+
+.dark-mode .navbar-custom .dropdown-item {
+  color: #c58cfa !important;
+}
+
+.dark-mode .navbar-custom .dropdown-item:hover {
+  background-color: #c58cfa !important;
+  color: #4A4063 !important;
+}
+
+.dark-mode .btn {
+  background-color: #4A4063 !important;
+  border-color: #c58cfa !important;
+  color: #c58cfa !important; /* Added for dark mode button text */
+}
+
+.dark-mode .btn:hover {
+  background-color: #c58cfa !important;
+  color: #4A4063 !important;
+}
+
+/* Ensure all elements that were yellow in light mode are light violet in dark mode */
+.dark-mode .navbar-custom .nav-link,
+.dark-mode .navbar-custom .navbar-brand {
+  color: #c58cfa !important;
+}
+
+.btn-dark-mode {
+  margin-left: 10px;
+  background-color: #8B3FC2 !important;
+  color: #c58cfa !important;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+
+.btn-dark-mode:hover {
+  background-color: #c58cfa !important;
+  color: #8B3FC2 !important;
+}
+
+/* Remove border from dark mode button */
+.no-border {
+  border: none !important;
+}
